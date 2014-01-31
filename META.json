@@ -4,7 +4,7 @@
       "Shlomi Fish <shlomif@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "artistic_2"
    ],
@@ -36,6 +36,7 @@
             "JSON" : "0",
             "YAML::XS" : "0",
             "parent" : "0",
+            "perl" : "5.008",
             "strict" : "0",
             "warnings" : "0"
          }
@@ -44,15 +45,15 @@
    "provides" : {
       "HTML::Widgets::NavMenu::ToJSON" : {
          "file" : "lib/HTML/Widgets/NavMenu/ToJSON.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       },
       "HTML::Widgets::NavMenu::ToJSON::Data_Persistence" : {
          "file" : "lib/HTML/Widgets/NavMenu/ToJSON/Data_Persistence.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       },
       "HTML::Widgets::NavMenu::ToJSON::Data_Persistence::YAML" : {
          "file" : "lib/HTML/Widgets/NavMenu/ToJSON/Data_Persistence/YAML.pm",
-         "version" : "v0.0.1"
+         "version" : "v0.0.2"
       }
    },
    "release_status" : "stable",
@@ -61,5 +62,5 @@
          "http://www.perlfoundation.org/artistic_license_2_0"
       ]
    },
-   "version" : "v0.0.1"
+   "version" : "v0.0.2"
 }

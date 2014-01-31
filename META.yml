@@ -12,7 +12,7 @@ build_requires:
 configure_requires:
   Module::Build: 0
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -21,21 +21,22 @@ name: HTML-Widgets-NavMenu-ToJSON
 provides:
   HTML::Widgets::NavMenu::ToJSON:
     file: lib/HTML/Widgets/NavMenu/ToJSON.pm
-    version: v0.0.1
+    version: v0.0.2
   HTML::Widgets::NavMenu::ToJSON::Data_Persistence:
     file: lib/HTML/Widgets/NavMenu/ToJSON/Data_Persistence.pm
-    version: v0.0.1
+    version: v0.0.2
   HTML::Widgets::NavMenu::ToJSON::Data_Persistence::YAML:
     file: lib/HTML/Widgets/NavMenu/ToJSON/Data_Persistence/YAML.pm
-    version: v0.0.1
+    version: v0.0.2
 requires:
   Carp: 0
   HTML::Widgets::NavMenu::Object: 0
   JSON: 0
   YAML::XS: 0
   parent: 0
+  perl: 5.008
   strict: 0
   warnings: 0
 resources:
   license: http://www.perlfoundation.org/artistic_license_2_0
-version: v0.0.1
+version: v0.0.2
