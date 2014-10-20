@@ -10,7 +10,7 @@ WriteMakefile
                    'File::Spec' => 0,
                    'File::Temp' => 0,
                    'HTML::Widgets::NavMenu::Object' => 0,
-                   'JSON' => 0,
+                   'JSON::MaybeXS' => 0,
                    'Test::More' => 0,
                    'YAML::XS' => 0,
                    'parent' => 0,
