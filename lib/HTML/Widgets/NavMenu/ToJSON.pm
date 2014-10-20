@@ -8,7 +8,7 @@ use Carp;
 
 use parent 'HTML::Widgets::NavMenu::Object';
 
-use JSON qw(encode_json);
+use JSON::MaybeXS ();
 
 =head1 NAME
 
@@ -16,11 +16,11 @@ HTML::Widgets::NavMenu::ToJSON - convert HTML::Widgets::NavMenu to JSON
 
 =head1 VERSION
 
-Version 0.0.2
+Version 0.0.3
 
 =cut
 
-our $VERSION = '0.0.2';
+our $VERSION = '0.0.3';
 
 =head1 SYNOPSIS
 
@@ -124,7 +124,7 @@ sub output_as_json
         };
     };
 
-    my $ret = encode_json(
+    my $ret = JSON::MaybeXS->new(utf8 => 1, canonical => 1)->encode(
         $process_sub_tree->($self->_tree_contents)->{'subs'}
     );
 

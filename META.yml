@@ -3,40 +3,40 @@ abstract: 'convert HTML::Widgets::NavMenu to JSON'
 author:
   - 'Shlomi Fish <shlomif@cpan.org>'
 build_requires:
-  File::Spec: 0
-  File::Temp: 0
-  JSON: 0
-  Test::More: 0
-  strict: 0
-  warnings: 0
+  File::Spec: '0'
+  File::Temp: '0'
+  JSON: '0'
+  Test::More: '0'
+  strict: '0'
+  warnings: '0'
 configure_requires:
-  Module::Build: 0
+  Module::Build: '0'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
+generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.142060'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: HTML-Widgets-NavMenu-ToJSON
 provides:
   HTML::Widgets::NavMenu::ToJSON:
     file: lib/HTML/Widgets/NavMenu/ToJSON.pm
-    version: v0.0.2
+    version: v0.0.3
   HTML::Widgets::NavMenu::ToJSON::Data_Persistence:
     file: lib/HTML/Widgets/NavMenu/ToJSON/Data_Persistence.pm
-    version: v0.0.2
+    version: v0.0.3
   HTML::Widgets::NavMenu::ToJSON::Data_Persistence::YAML:
     file: lib/HTML/Widgets/NavMenu/ToJSON/Data_Persistence/YAML.pm
-    version: v0.0.2
+    version: v0.0.3
 requires:
-  Carp: 0
-  HTML::Widgets::NavMenu::Object: 0
-  JSON: 0
-  YAML::XS: 0
-  parent: 0
-  perl: 5.008
-  strict: 0
-  warnings: 0
+  Carp: '0'
+  HTML::Widgets::NavMenu::Object: '0'
+  JSON: '0'
+  YAML::XS: '0'
+  parent: '0'
+  perl: '5.008'
+  strict: '0'
+  warnings: '0'
 resources:
   license: http://www.perlfoundation.org/artistic_license_2_0
-version: v0.0.2
+version: v0.0.3
