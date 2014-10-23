@@ -5,7 +5,7 @@ author:
 build_requires:
   File::Spec: '0'
   File::Temp: '0'
-  JSON::MaybeXS: '0'
+  JSON::MaybeXS: '1.002002'
   Test::More: '0'
   strict: '0'
   warnings: '0'
@@ -21,17 +21,17 @@ name: HTML-Widgets-NavMenu-ToJSON
 provides:
   HTML::Widgets::NavMenu::ToJSON:
     file: lib/HTML/Widgets/NavMenu/ToJSON.pm
-    version: v0.0.5
+    version: v0.0.6
   HTML::Widgets::NavMenu::ToJSON::Data_Persistence:
     file: lib/HTML/Widgets/NavMenu/ToJSON/Data_Persistence.pm
-    version: v0.0.5
+    version: v0.0.6
   HTML::Widgets::NavMenu::ToJSON::Data_Persistence::YAML:
     file: lib/HTML/Widgets/NavMenu/ToJSON/Data_Persistence/YAML.pm
-    version: v0.0.5
+    version: v0.0.6
 requires:
   Carp: '0'
   HTML::Widgets::NavMenu::Object: '0'
-  JSON::MaybeXS: '0'
+  JSON::MaybeXS: '1.002002'
   YAML::XS: '0'
   parent: '0'
   perl: '5.008'
@@ -39,4 +39,4 @@ requires:
   warnings: '0'
 resources:
   license: http://www.perlfoundation.org/artistic_license_2_0
-version: v0.0.5
+version: v0.0.6

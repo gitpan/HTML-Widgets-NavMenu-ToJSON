@@ -1,6 +1,7 @@
 package HTML::Widgets::NavMenu::ToJSON;
 
 use 5.008;
+
 use strict;
 use warnings FATAL => 'all';
 
@@ -8,7 +9,7 @@ use Carp;
 
 use parent 'HTML::Widgets::NavMenu::Object';
 
-use JSON::MaybeXS ();
+use JSON::MaybeXS 1.002002 ();
 
 =head1 NAME
 
@@ -16,11 +17,11 @@ HTML::Widgets::NavMenu::ToJSON - convert HTML::Widgets::NavMenu to JSON
 
 =head1 VERSION
 
-Version 0.0.5
+Version 0.0.6
 
 =cut
 
-our $VERSION = '0.0.5';
+our $VERSION = '0.0.6';
 
 =head1 SYNOPSIS
 
